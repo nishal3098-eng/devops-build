@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  web:
+    image: nishal3098/devops-build-dev:latest
+    container_name: devops-build
+    ports:
+      - "80:80"
+    restart: unless-stopped

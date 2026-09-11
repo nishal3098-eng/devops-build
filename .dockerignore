@@ -1,0 +1,6 @@
+.git
+.gitignore
+Jenkinsfile
+*.sh
+README.md
+node_modules
